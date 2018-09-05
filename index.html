@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>DefectDojo | CI/CD and DevSecOps Automation</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="appsecpipeline, open source, source of truth, application security, appsec, enterprise vulnerability management, web vulnerability scanner, vulnerability management software" name="keywords">
+  <meta content="appsecpipeline, open source, source of truth, application security, appsec, enterprise vulnerability management, web vulnerability scanner, vulnerability management software, vulnerability correlation" name="keywords">
   <meta content="DefectDojo is an open-source application vulnerability management correlation and security orchestration tool. Scale security by creating an AppSecPipeline with DefectDojo." name="description">
 
   <!-- Favicons -->
@@ -31,6 +31,23 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "theme": "edgeless"
+  })});
+  </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124190882-1"></script>
   <script>
@@ -77,15 +94,15 @@
     "@type": "ListItem",
     "position": 1,
     "item": {
-      "@id": "https://www.defectdojo.org/#features",
-      "name": "Features"
+      "@id": "https://www.defectdojo.org/#team",
+      "name": "Core Team"
     }
   },{
     "@type": "ListItem",
     "position": 2,
     "item": {
       "@id": "https://www.defectdojo.org/#about",
-      "name": "About DefectdDjo"
+      "name": "About DefectDojo"
     }
   },{
     "@type": "ListItem",
@@ -98,8 +115,8 @@
     "@type": "ListItem",
     "position": 4,
     "item": {
-      "@id": "https://www.defectdojo.org/#team",
-      "name": "Core Team"
+      "@id": "https://www.defectdojo.org/#features",
+      "name": "Features"
     }
   }]
 }
